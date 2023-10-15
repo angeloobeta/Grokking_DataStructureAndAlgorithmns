@@ -3,7 +3,7 @@ package sliding_window_problem;
 import java.util.Arrays;
 
 // Problem: Given an array, find the average of all contiguous sub-arrays of size ‘K’ in it.
-public class AverageSumOfArray {
+public class AverageSumOfArray_1 {
     public static double[] findAverage1(int K, int [] array){
         double[] result = new double[array.length-K+1];
         for(int i = 0; i < result.length; i++){
